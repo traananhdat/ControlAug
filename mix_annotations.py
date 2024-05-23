@@ -13,6 +13,8 @@ FOLDER_PREFIXS=["JPEGImages/","images/apple/TRAIN_RGB/","images/avocado/TRAIN_RG
                 "images/capsicum/TRAIN_RGB/","images/mango/TRAIN_RGB/","images/orange/TRAIN_RGB/",
                 "images/rockmelon/TRAIN_RGB/","images/strawberry/TRAIN_RGB/","images/"]
 
+#####
+
 def get_image_sample_name(syn_data_path, clip_score_key, filter_strategy):
     if clip_score_key is None:
         if filter_strategy not in ["nofilter"]:
